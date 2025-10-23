@@ -36,7 +36,7 @@ header {
   padding: 10px 0px;
 }
 
-.menu-navegacao button {
+.menu-navegacao button, .button {
   padding: 10px 5px;
   color: white;
   background-color: #21C05C;
@@ -154,6 +154,151 @@ header {
   align-items: center;
   gap: 10px;
   margin: 10px 0;
+}
+
+.produtos-disponiveis-title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.produtos-disponiveis-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.produtos-disponiveis-card {
+  border: 1px solid #21C05C;
+  border-radius: 5px;
+  width: 15rem;
+}
+
+.produtos-disponiveis-card-img {
+  width: 15rem;
+}
+
+.produtos-disponiveis-card-img img {
+  width: 100%;
+}
+
+.produtos-disponiveis-card-text {
+  text-align: center;
+  padding: 20px;
+}
+.produtos-disponiveis-card-text p {
+  margin: 10px 0;
+}
+
+.feedbacks {
+  margin: 25px 0;
+}
+
+.feedback-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.feedback-card {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 10px;
+  border-width: 1px 1px 1px 4px;
+  border-style: solid;
+  border-color: #9CA3AF;
+  border-radius: 8px;
+}
+
+.feedback-card-stars img {
+  height: 1.5rem;
+}
+
+.feedback-card-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.feedback-card-user img {
+  width: 2rem;
+}
+
+.call-to-action {
+  margin: 20px 0;
+  padding: 20px 10px;
+  background-color: #f0f1f1;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.call-to-action-text {
+  margin: 15px 0;
+}
+.call-to-action-text h2, .call-to-action-text p {
+  margin: 10px 0;
+}
+
+.call-to-action-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.button-transp {
+  background-color: transparent;
+  color: #21C05C;
+  border: 1px solid #16A34A;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #1F2937;
+  margin: 10px 0;
+  border-radius: 5px;
+  padding: 20px;
+  align-items: center;
+  gap: 25px;
+}
+footer h3 {
+  color: #f0f1f1;
+}
+footer p, footer li {
+  color: #9CA3AF;
+}
+
+.footer-title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-title-logo {
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-links li {
+  list-style: none;
+}
+
+.footer-social-media div {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social-media div img {
+  width: 48px;
+}
+
+.footer-copyright {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
