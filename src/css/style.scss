@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+p {
+    color: rgb(54, 54, 54);
+}
+
+header {
+    padding: 15px 0px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 35px;
+}
+
+.menu-navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 10px 0px;
+}
+
+.menu-navegacao button {
+    padding: 10px 5px;
+    color: white;
+    background-color: #21C05C;
+    border: none;
+    border-radius: 5px;
+}
+
+.menu-navegacao ul {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+
+.menu-navegacao ul li a {
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+}
+
+.menu-navegacao ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section img{
+    width: 70%;
+}
+
+.hero-section-text h1{
+    margin-bottom: 10px;
+}
+
+.hero-section-text p{
+    margin-bottom: 20px;
+}
+
+.hero-section-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero-section-buttons button {
+    border: none;
+    border-radius:5px;
+    padding: 10px 25px;
+}
+
+.hero-section-button-content {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.hero-section-buttons button:last-child {
+    background-color: white;
+    color: #2563EB;
+    border: 1px solid #2563EB;
+}
+
+.hero-section-buttons button:first-child {
+    background-color: #21C05C;
+    color: white;
+}
+
+
+.hero-section-buttons button img {
+    width: 20px;
+}
+
+.dados-feedback{
+    display: flex;
+    background-color: #f0f1f1;
+    gap: 5px;
+    padding: 15px;
+}
+
+.dados-feedback div {
+    text-align: center;
+}
+
+.dados-feedback h3 {
+    color: #16A34A;
+}
+
+.help{
+    margin: 20px 0;
+}
+
+.help-title {
+    text-align: center;
+}
+
+.cards-help {
+
+}
+.card-help {
+
+    margin: 20px 0;
+    background-color: #f0f1f1;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.card-help-title {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0;
+}
+
+.card-help-text-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
